@@ -5,7 +5,7 @@
 ## TL;DR;
 
 ```console
-$ helm install stable/postgresql
+$ helm install  --name postgresql --set postgresqlPassword=test001 -f values.yaml .
 ```
 
 ## Introduction
